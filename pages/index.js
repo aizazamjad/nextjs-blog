@@ -22,10 +22,9 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
+        
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+        Welcome to our page, we are Soft Dev Simplified, and our job is to simplify Software development for you, so you can start your dream project sooner.  
         </p>
       </section>
 
