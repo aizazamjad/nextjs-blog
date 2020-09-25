@@ -24,11 +24,21 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         
         <p>
-        Welcome to our page, we are Soft Dev Simplified, and our job is to simplify Software development for you, so you can start your dream project sooner.  
+        <h2>Planning to launch a product with a startup minded team?</h2>
+
+<div>While you're still thinking about your idea sitting on the couch , someone else has built his business, hired someone to implement their idea, and sooner, they are planning to give competition to either FoodPanda, Uber or Daraz and heading  one step ahead from you in business, <strong>so buckle up!!!</strong></div>
+<br/>
+<div>We are Soft Dev Simplified, we will take your idea and implement it for you, with our flawless services, you will be one step ahead of your competition.</div>
+<br/>
+
+Contact Us
+<br/><br/>
+<strong>What's App: +923476536351</strong> <br/>
+<strong>Email: aizazamjadhere@gmail.com</strong>
         </p>
       </section>
 
-      <section className={utilStyles.headingMd}>…</section>
+      {/* <section className={utilStyles.headingMd}>…</section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
@@ -44,7 +54,7 @@ export default function Home({ allPostsData }) {
           </li>
           ))}
         </ul>
-      </section>
+      </section> */}
     </Layout>
   )
 }

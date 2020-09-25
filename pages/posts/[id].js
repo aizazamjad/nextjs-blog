@@ -3,7 +3,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
-
+import { useState, useEffect } from 'react'
 
 export async function getStaticPaths() {
     const paths = getAllPostIds()
@@ -23,6 +23,8 @@ export async function getStaticPaths() {
   }  
   
   export default function Post({ postData }) {
+
+
     return (
       <Layout>
           <Head>
